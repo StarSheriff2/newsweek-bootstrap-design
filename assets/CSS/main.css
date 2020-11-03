@@ -4,9 +4,21 @@
   General layout
   =======================
 */
+.hidden {
+  position: absolute;
+  left: -9999999px;
+}
 
+.nav-bar {
+  background: #F72210;
+}
 
-
+.navbar-logo {
+  fill: white;
+  width: 132px;
+  height: 50px;
+  margin-left: 1em;
+}
 /*
   =======================
   Typography
