@@ -81,6 +81,14 @@ h3 {
   Main - 
   =======================
 */
+.page-sections {
+  border-bottom: 1px solid #e2e2e2;
+}
+/*
+  =======================
+  Top Story
+  =======================
+*/
 article {
   border: solid red 2px;
 }
@@ -117,4 +125,12 @@ article {
 .article-para {
   font-size: 13px;
   line-height: 18px;
+}
+/*
+  =======================
+  Featured Stories
+  =======================
+*/
+.article-title-light {
+  background: rgba(255,255,255,.9);
 }
