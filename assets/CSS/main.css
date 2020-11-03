@@ -81,23 +81,37 @@ h3 {
   Main - 
   =======================
 */
+article {
+  border: solid red 2px;
+}
+
 .section-titles {
   font-size: 16px;
+  text-transform: uppercase;
+  color: rgba(3,3,3,.4);
+  margin-bottom: 0.75em;
 }
 
 .img-container {
   padding-top: 61.58%;
   height: 0;
-  background: black url(../Images/topStory-1.jpg) center / cover;
 }
 
 .img-titles-lg {
   font-size: 17px;
+  bottom: 0;
+  color: #F72210 !important;
+  background-color: #e6e6e6;
+  margin: 0;
 }
 
 .article-title {
   font-size: 22px;
   line-height: 24px;
+}
+
+.article-title a:hover {
+  text-decoration: underline #f72210;
 }
 
 .article-para {
