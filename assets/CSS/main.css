@@ -4,10 +4,39 @@
   General layout
   =======================
 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  background-color: #f4f5f7;
+  line-height: 18px;
+}
+
 .hidden {
   position: absolute;
   left: -9999999px;
 }
+
+/*
+  =======================
+  Typography
+  =======================
+*/
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+/*
+  =======================
+  Nav-Bar
+  =======================
+*/
 
 .nav-bar {
   background: #F72210;
@@ -19,8 +48,16 @@
   height: 50px;
   margin-left: 1em;
 }
-/*
-  =======================
-  Typography
-  =======================
-*/
+
+.user-icon {
+  width: 30px;
+  height: 30px;
+  background: url(https://g.newsweek.com/www/images/user-w.svg) center / contain no-repeat;
+  opacity: 0.75;
+}
+
+.subscribe-button {
+  background-color: #ffe400;
+  font-size: 13px;
+  font-weight: bold;
+}
