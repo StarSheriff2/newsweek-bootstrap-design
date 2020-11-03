@@ -18,6 +18,11 @@ body {
   left: -9999999px;
 }
 
+button {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  line-height: 1em;
+}
 /*
   =======================
   Typography
@@ -46,7 +51,6 @@ h3 {
   fill: white;
   width: 132px;
   height: 50px;
-  margin-left: 1em;
 }
 
 .user-icon {
@@ -60,4 +64,43 @@ h3 {
   background-color: #ffe400;
   font-size: 13px;
   font-weight: bold;
+  padding: 0.25em 1em;
+}
+
+.fa-bars {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 2px;
+  color: white;
+  opacity: 0.75;
+  font-size: 18px;
+}
+
+/*
+  =======================
+  Main - 
+  =======================
+*/
+.section-titles {
+  font-size: 16px;
+}
+
+.img-container {
+  padding-top: 61.58%;
+  height: 0;
+  background: black url(../Images/topStory-1.jpg) center / cover;
+}
+
+.img-titles-lg {
+  font-size: 17px;
+}
+
+.article-title {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.article-para {
+  font-size: 13px;
+  line-height: 18px;
 }
