@@ -199,3 +199,14 @@ article {
 .line-2 {
   margin-top: 1.5px;
 }
+
+/*
+  =======================
+  Opinion
+  =======================
+*/
+
+.opinion-item {
+  border-width: 1px !important;
+}
+}
