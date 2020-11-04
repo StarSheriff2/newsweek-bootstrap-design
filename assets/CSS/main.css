@@ -90,9 +90,9 @@ h3 {
   Top Story
   =======================
 */
-article {
+/* article {
   border: solid red 2px;
-}
+} */
 
 .section-titles {
   font-size: 16px;
@@ -110,7 +110,7 @@ article {
   font-size: 17px;
   bottom: 0;
   color: #F72210 !important;
-  background-color: #e6e6e6;
+  background-color: rgba(230,230,230,0.70);
   margin: 0;
 }
 
@@ -209,4 +209,13 @@ article {
 .opinion-item {
   border-width: 1px !important;
 }
+
+/*
+  =======================
+  Insight & Rankings Left Section
+  =======================
+*/
+
+.img-titles-blue {
+  color: #3581f4 !important;
 }
