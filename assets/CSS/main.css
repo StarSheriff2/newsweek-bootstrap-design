@@ -37,6 +37,11 @@ h3 {
   line-height: 1em;
 }
 
+a {
+  font-size: inherit;
+  line-height: inherit;
+}
+
 /*
   =======================
   Nav-Bar
@@ -84,7 +89,9 @@ h3 {
 .page-sections {
   border-bottom: 1px solid #e2e2e2;
   background-color: #ffffff;
+  width: 100%;
 }
+
 /*
   =======================
   Top Story
@@ -150,8 +157,9 @@ h3 {
  border-width: 4px !important;
 }
 
-.debate-article-title a {
+.debate-article-title {
   font-size: 17px;
+  line-height: 21px !important;
 }
 
 .debate-author-name {
@@ -176,15 +184,6 @@ h3 {
 .debate-vs-container {
   height: 32px;
 }
-
-/* .debate-VS::before {
-  content: "";
-  position: absolute;
-  height: 4px;
-  width: 100%;
-  background-color:#dee2e6;
-  right: 0;
-} */
 
 .debate-line-division {
   height: 1px;
@@ -218,4 +217,25 @@ h3 {
 
 .img-titles-blue {
   color: #3581f4 !important;
+}
+
+/*
+  =======================
+  More Stories
+  =======================
+*/
+
+
+@media (min-width: 768px) {
+  .featured-stories {
+    width: 345px;
+  }
+
+  .top-story {
+    width: 422px;
+  }
+
+  .special-section-left {
+    width: 322px !important;
+  }
 }

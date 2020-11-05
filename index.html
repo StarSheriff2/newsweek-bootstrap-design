@@ -27,10 +27,10 @@
     </nav>
   </header>
   <!-- Main -->
-  <main class="main-content d-flex flex-wrap">
+  <main class="main-content d-flex flex-wrap align-items-start">
     <h1 class="hidden">Main Content</h1>
     <!-- Top Story -->
-    <section class="page-sections top-story d-flex flex-wrap p-3 mb-3">
+    <section class="page-sections top-story d-flex flex-wrap p-3 mb-3 flex-grow-1 flex-shrink-1 order-1">
       <h1 class="section-titles">Top Story</h1>
       <article>
         <div class="img-container position-relative" style="background: black url(assets/Images/topStory-1.jpg) center / cover;">
@@ -42,7 +42,7 @@
       </article>
     </section>
     <!-- Featured Stories -->
-    <section class="page-sections featured-stories d-flex flex-wrap pt-3 pr-3 pl-3 mb-3">
+    <section class="page-sections featured-stories d-flex flex-wrap pt-3 pr-3 pl-3 mb-3 flex-grow-1 flex-shrink-1 order-0">
       <h1 class="section-titles">Featured Stories</h1>
       <article class="pb-3">
         <div class="img-container position-relative" style="background: black url(assets/Images/featuredStories-1.jpg) center / cover;">
@@ -70,7 +70,7 @@
       </article>
     </section>
     <!-- Debate Section-->
-    <section class="the-debate page-sections pt-3 pr-3 pl-3 pb-3 mb-3">
+    <section class="the-debate page-sections pt-3 pr-3 pl-3 pb-3 mb-3 flex-grow-1 flex-shrink-1 order-3">
       <h1><a href="#" class="section-titles">The Debate</a></h1>
       <div class="debate-item border-top d-flex align-items-center">
         <img src="assets/Images/debate-1.png" alt="Will Chamberlain image" width="63" class="mr-3">
@@ -93,7 +93,7 @@
       </div>
     </section>
     <!-- Opinion Section -->
-    <section class="opinion page-sections pt-3 pr-3 pl-3 mb-3">
+    <section class="opinion page-sections pt-3 pr-3 pl-3 mb-3 flex-grow-1 flex-shrink-1 order-4">
       <h1><a href="#" class="section-titles">Opinion</a></h1>
       <div class="debate-item opinion-item d-flex align-items-center border-bottom">
         <img src="assets/Images/opinion-1.png" alt="Opinion Author's image" width="63" class="mr-3">
@@ -118,7 +118,7 @@
       </div>
     </section>
     <!-- Insight & Rankings Left section -->
-    <aside class="special-section-left page-sections d-flex flex-wrap pt-3 pr-3 pl-3 mb-3">
+    <aside class="special-section-left page-sections d-flex flex-wrap pt-3 pr-3 pl-3 mb-3 flex-grow-1 flex-shrink-1 order-2">
       <h1 class="hidden">Insights & Rankings 1</h1>
       <article class="pb-4">
         <div class="img-container position-relative" style="background: black url(assets/Images/insight-left-1.jpg) center / cover;">
@@ -161,10 +161,36 @@
         </div>
       </article>
     </aside>
-    <section class="more-stories">
-      <h1>More Stories</h1>
+      <!-- More Stories -->
+    <section class="more-stories page-sections pt-3 pr-3 pl-3 mb-3 flex-grow-1 flex-shrink-1 order-5">
+      <h1 class="section-titles">More Stories</h1>
+      <div class="debate-item opinion-item border-bottom py-3">
+        <img src="assets/Images/moreStories-1.jpg" alt="Opinion Author's image" width="95" height="95" class="float-left mr-3 pb-3">
+        <h2 class="debate-article-title "><a class="text-dark" href="#">As Mayors, We Need a President Who Works With Us, Not Against Us</a></h2>
+        <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum fabulas electram id sit, cu recusabo incorrupte eos.</p>
+      </div>
+      <div class="debate-item opinion-item border-bottom py-3">
+        <img src="assets/Images/moreStories-2.jpg" alt="Opinion Author's image" width="95" height="95" class="float-left mr-3 pb-3">
+        <h2 class="debate-article-title "><a class="text-dark" href="#">As Mayors, We Need a President Who Works With Us, Not Against Us</a></h2>
+        <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum fabulas electram id sit, cu recusabo incorrupte eos.</p>
+      </div>
+      <div class="debate-item opinion-item border-bottom py-3">
+        <img src="assets/Images/moreStories-3.jpg" alt="Opinion Author's image" width="95" height="95" class="float-left mr-3 pb-3">
+        <h2 class="debate-article-title "><a class="text-dark" href="#">As Mayors, We Need a President Who Works With Us, Not Against Us</a></h2>
+        <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum fabulas electram id sit, cu recusabo incorrupte eos.</p>
+      </div>
+      <div class="debate-item opinion-item border-bottom py-3">
+        <img src="assets/Images/moreStories-4.jpg" alt="Opinion Author's image" width="95" height="95" class="float-left mr-3 pb-3">
+        <h2 class="debate-article-title "><a class="text-dark" href="#">As Mayors, We Need a President Who Works With Us, Not Against Us</a></h2>
+        <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum fabulas electram id sit, cu recusabo incorrupte eos.</p>
+      </div>
+      <div class="debate-item opinion-item py-3">
+        <img src="assets/Images/moreStories-5.jpg" alt="Opinion Author's image" width="95" height="95" class="float-left mr-3 pb-3">
+        <h2 class="debate-article-title "><a class="text-dark" href="#">As Mayors, We Need a President Who Works With Us, Not Against Us</a></h2>
+        <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum fabulas electram id sit, cu recusabo incorrupte eos.</p>
+      </div>
     </section>
-    <div class="culture-items">
+    <div class="culture-items flex-grow-1 flex-shrink-1 order-6">
       <section class="my-turn">
         <h1>My Turn</h1>
       </section>
@@ -172,16 +198,16 @@
         <h1>Culture & Travel</h1>
       </section>
     </div>
-    <section class="special-section-right">
+    <section class="special-section-right flex-grow-1 flex-shrink-1 order-7">
       <h1 class="hidden">Insights & Rankings 2</h1>
     </section>
-    <section class="in-the-magazine">
+    <section class="in-the-magazine flex-grow-1 flex-shrink-1 order-8">
       <h1>In the Magazine</h1>
     </section>
-    <section class="editors-pick">
+    <section class="editors-pick flex-grow-1 flex-shrink-1 order-9">
       <h1>Editor's Pick</h1>
     </section>
-    <div class="news-category">
+    <div class="news-category flex-grow-1 flex-shrink-1 order-10">
       <section class="news-category-section">
         <h1>U.S.</h1>
       </section>
@@ -201,11 +227,10 @@
         <h1>Sports</h1>
       </section>
     </div>
-    <section class="subscribe">
+    <section class="subscribe flex-grow-1 flex-shrink-1 order-11">
       <h1>Subscribe</h1>
-
     </section>
-    <section class="newsletter">
+    <section class="newsletter flex-grow-1 flex-shrink-1 order-12">
       <h1>Newsletter</h1>
     </section>
   </main>
