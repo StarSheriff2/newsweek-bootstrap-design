@@ -225,6 +225,9 @@ a {
   My Turn
   =======================
 */
+.my-turn {
+  border-bottom: 0;
+}
 
 .img-container-lg {
   padding-top: 100%;
@@ -241,3 +244,42 @@ a {
 .my-turn-title a:hover {
   text-decoration: none;
 }
+
+/*
+  =======================
+  Culture & Travel
+  =======================
+*/
+.culture-tag {
+  background: #c2d4d7;
+  font-weight: bolder;
+  color: #212529 !important;
+  font-size: 13px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*
+  =======================
+  Sign Up Form
+  =======================
+*/
+.signUp-container {
+
+  max-width: 300px;
+  border: 1px solid gray;
+  margin: 0 auto;
+}
+
+.signUp-img {
+  background: #f72210;
+  width: 29px;
+  height: 28px;
+}
+
+.signUp-heading {
+  font-size: 19px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #333;
+}
+
+
