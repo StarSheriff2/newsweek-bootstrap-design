@@ -263,6 +263,7 @@ a {
   Sign Up Form
   =======================
 */
+
 .signUp-container {
 
   max-width: 300px;
@@ -290,7 +291,15 @@ a {
   font-size: 14px;
 }
 
+/*
+  =======================
+  In The Magazine
+  =======================
+*/
 
+.in-the-mag-top-img {
+  padding-top: 133.47%;
+}
 
 
 
