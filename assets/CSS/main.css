@@ -265,7 +265,6 @@ a {
 */
 
 .signUp-container {
-
   max-width: 300px;
   margin: 0 auto;
   background-color:#f4f5f7;
@@ -291,6 +290,9 @@ a {
   font-size: 14px;
 }
 
+.signUp-input {
+  border: 1px solid #e5e5e5;
+}
 /*
   =======================
   In The Magazine
@@ -301,5 +303,21 @@ a {
   padding-top: 133.47%;
 }
 
+.see-all-features {
+  background: #f4f5f6;
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.magazine-tag {
+  background: #f72210;
+  color: #fff !important;
+}
+
+.magazine-h2 {
+  font-size: 16px;
+  color: black !important;
+}
 
 
