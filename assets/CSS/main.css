@@ -43,6 +43,10 @@ a {
   color: inherit;
 }
 
+.helvetica {
+  font-family: Helvetica, "Roboto Condensed", sans-serif !important;
+}
+
 /*
   =======================
   Nav-Bar
@@ -313,6 +317,8 @@ a {
 .magazine-tag {
   background: #f72210;
   color: #fff !important;
+  bottom: -5px;
+  font-weight: 500 !important;
 }
 
 .magazine-h2 {
