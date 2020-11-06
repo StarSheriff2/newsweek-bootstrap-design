@@ -309,6 +309,10 @@ a {
   padding-top: 133.47%;
 }
 
+.bottom-section-images {
+  padding-top: 66.75%;
+}
+
 .see-all-features {
   background: #f4f5f6;
   font-family: "Roboto Condensed",sans-serif;
@@ -342,4 +346,9 @@ a {
 
 .stories-category-h1 a:hover {
   text-decoration: none;
+}
+
+.stories-category-h2 {
+  font-size: 18px !important;
+  line-height: 18px;
 }
