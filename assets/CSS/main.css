@@ -334,10 +334,21 @@ a {
 
 /*
   =======================
+  Editor's Pick
+  =======================
+*/
+.editors-pick {
+  border-bottom: none;
+}
+/*
+  =======================
   Stories Category
   =======================
 */
-
+.stories-category-section {
+  padding-top: 2em !important;
+  padding-bottom: 2em !important;
+}
 .stories-category-h1 {
   font-size: 22px !important;
   color: #f72210;
@@ -351,4 +362,14 @@ a {
 .stories-category-h2 {
   font-size: 18px !important;
   line-height: 18px;
+}
+
+.stories-categories-smallIMG {
+  height: 73.41px;
+  width: 110px;
+  padding-top: 0;
+}
+
+.equal-ratio {
+  height: 110px;
 }
