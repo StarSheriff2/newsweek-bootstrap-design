@@ -287,6 +287,11 @@ a {
   color: #333;
 }
 
+.signUp-input {
+  border: 1px solid #e5e5e5;
+  font-size: 14px;
+}
+
 .signUp-btn {
   font-family: Helvetica, 'Roboto Condensed', sans-serif;
   background-color: #f61602;
@@ -294,9 +299,6 @@ a {
   font-size: 14px;
 }
 
-.signUp-input {
-  border: 1px solid #e5e5e5;
-}
 /*
   =======================
   In The Magazine
@@ -326,4 +328,18 @@ a {
   color: black !important;
 }
 
+/*
+  =======================
+  Stories Category
+  =======================
+*/
 
+.stories-category-h1 {
+  font-size: 22px !important;
+  color: #f72210;
+  text-decoration: none;
+}
+
+.stories-category-h1 a:hover {
+  text-decoration: none;
+}
