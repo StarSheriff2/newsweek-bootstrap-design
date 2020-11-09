@@ -12,6 +12,12 @@ body {
   line-height: 18px;
 }
 
+main,
+footer {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
 .hidden {
   position: absolute;
   left: -9999999px;
@@ -55,6 +61,8 @@ a {
 
 .nav-bar {
   background: #F72210;
+  max-width: 1310px;
+  margin: 0 auto;
 }
 
 .navbar-logo {
@@ -479,3 +487,8 @@ a {
   line-height: 15x;
 }
 
+@media (min-width: 768px) {
+  .page-sections {
+    border-bottom: none;
+  }
+}
