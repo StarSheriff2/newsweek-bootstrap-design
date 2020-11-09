@@ -399,6 +399,18 @@ a {
 }
 
 .subscribe-img-1 {
-  margin: 0 auto;
-  right: ;
+  right: 70px;
+}
+
+.subscribe-img-2 {
+  bottom: -2px;
+}
+
+.subscribe-para {
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.subscribe-btn {
+  font-size: 18px;
 }
