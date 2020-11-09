@@ -491,4 +491,25 @@ a {
   .page-sections {
     border-bottom: none;
   }
+
+  .special-section-right article {
+    max-width: 330px;
+    margin: 0 auto;
+  }
+
+  .editors-pick-md-img {
+    padding-top: 100%;
+  }
+
+  .magazine-h2 {
+    font-size: 20px;
+  }
+
+  .magazine-inFocus {
+    padding-top: 110%;
+  }
+
+  .magazine-tag {
+    bottom: 0;
+  }
 }
