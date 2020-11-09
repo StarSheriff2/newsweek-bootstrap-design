@@ -453,3 +453,29 @@ a {
 .newslet-para {
   color: #333;
 }
+
+/*
+  =======================
+  Footer
+  =======================
+*/
+
+.footer-logo {
+  fill: #f72210;
+  width: 236px;
+  height: 36px;
+}
+
+.footer-para {
+  font-size: 12px;
+}
+
+.social-media-links .fab {
+  font-size: 1.8em;
+}
+
+.site-map {
+  font-size: 14px;
+  line-height: 15x;
+}
+
