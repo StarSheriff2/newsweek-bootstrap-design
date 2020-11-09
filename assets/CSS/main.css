@@ -381,7 +381,7 @@ a {
 
 /*
   =======================
-  Stories Category
+  Subscribe Section & Newsletter
   =======================
 */
 
@@ -413,4 +413,43 @@ a {
 
 .subscribe-btn {
   font-size: 18px;
+}
+
+.newsletter-input {
+  border: 1px solid #e5e5e5;
+}
+
+.newslet-btn {
+  background: #f72210;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 10px 10px 12px;
+  margin-top: 0 !important;
+}
+
+.newslet-btn i {
+  padding-left: 5px;
+  font-size: 14px;
+}
+
+.newsletter-form {
+  height: auto;
+}
+
+.newslet-img-container {
+  height: 170px;
+}
+
+.newslet-img {
+  object-fit: cover;
+  height: 170px;
+}
+
+.newslet-heading {
+  font-size: 20px;
+  color: black;
+}
+
+.newslet-para {
+  color: #333;
 }
