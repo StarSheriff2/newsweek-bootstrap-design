@@ -110,6 +110,29 @@ a {
   font-size: 18px;
 }
 
+.search-icon-nav {
+  width: 20px;
+  height: 20px;
+  right: 15px;
+}
+
+.desktop-nav {
+  font-size: 19px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.desktop-nav-top {
+  padding-right: 80px;
+}
+
+.search-input {
+  width: 67px;
+  font-size: 17px;
+}
+
+.desktop-nav-bottom-li {
+  font-size: 16px;
+}
 /*
   =======================
   Main - 
