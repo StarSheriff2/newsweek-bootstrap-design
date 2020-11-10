@@ -597,7 +597,7 @@ a {
   }
 
   .mag-cover-div {
-    margin-right: 110px;
+    margin-right: 125px;
   }
 
   .subscribe-img-1 {
@@ -610,6 +610,16 @@ a {
 
   .signUp-heading {
     font-size: 24px;
+  }
+
+  .newslet-img-container,
+  .newslet-img {
+    height: 188px;
+  }
+
+  .social-media-links {
+    position: absolute;
+    right: 0;
   }
 
   .site-map-li-pipe {
