@@ -406,12 +406,18 @@ a {
   border: none;
 }
 
+.mag-cover-div {
+  width: 170px;
+  height: 227px;
+}
+
 .subscribe-img-1 {
-  right: 70px;
+  right: 60px;
 }
 
 .subscribe-img-2 {
-  bottom: -2px;
+  top: 12px;
+  left: 25px;
 }
 
 .subscribe-para {
@@ -511,5 +517,9 @@ a {
 
   .magazine-tag {
     bottom: 0;
+  }
+
+  .site-map-li-pipe {
+    border-right: 2px solid #f4f5f7;
   }
 }
