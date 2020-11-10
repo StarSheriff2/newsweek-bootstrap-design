@@ -16,7 +16,7 @@ This is part of the first module in Microverse on HTML and CSS, where my partner
 
 ## Live Demo
 
-[Live Demo](https://starsheriff2.github.io/newsweek-bootstrap-design/)
+[Live Demo](https://starsheriff2.github.io/newsweek-bootstrap-design)
 
 ## Authors
 
