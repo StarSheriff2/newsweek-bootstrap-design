@@ -3,6 +3,7 @@
   General layout
   =======================
 */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -33,6 +34,7 @@ a:hover {
   text-decoration: none;
   color: inherit;
 }
+
 /*
   =======================
   Typography
@@ -427,6 +429,7 @@ a {
   text-decoration: underline #f72210;
   color: inherit;
 }
+
 /*
   =======================
   Editor's Pick
