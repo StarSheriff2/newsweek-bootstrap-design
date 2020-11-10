@@ -633,4 +633,14 @@ a {
     height: 60px;
     margin: 20px auto 10px;
   }
+
+  .newslet-img-container,
+  .newslet-img {
+    height: 100%;
+  }
+
+  .newsletter-input {
+    height: 38px;
+    border-right: 1px solid #e5e5e5 !important;
+  }
 }
