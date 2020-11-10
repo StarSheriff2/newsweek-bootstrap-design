@@ -29,6 +29,10 @@ button {
   line-height: 1em;
 }
 
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
 /*
   =======================
   Typography
@@ -635,6 +639,11 @@ a {
     height: 188px;
   }
 
+  .newslet-heading {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
   .social-media-links {
     position: absolute;
     right: 0;
@@ -650,6 +659,18 @@ a {
     width: 396px;
     height: 60px;
     margin: 20px auto 10px;
+  }
+
+  .desktop-nav::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 90px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
   }
 
   .newslet-img-container,
