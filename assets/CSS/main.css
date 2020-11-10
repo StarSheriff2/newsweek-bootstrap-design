@@ -65,6 +65,14 @@ a {
   margin: 0 auto;
 }
 
+.time-weather-gadget {
+  font-size: 15px;
+}
+
+.logo {
+  left: 16px;
+}
+
 .navbar-logo {
   fill: white;
   width: 132px;
@@ -78,11 +86,19 @@ a {
   opacity: 0.75;
 }
 
+.user-login {
+  font-size: 18px;
+}
+
 .subscribe-button {
   background-color: #ffe400;
   font-size: 13px;
   font-weight: bold;
   padding: 0.25em 1em;
+}
+
+.subscribe-button i {
+  font-size: 14px;
 }
 
 .fa-bars {
@@ -235,6 +251,16 @@ a {
 
 .img-titles-blue {
   color: #3581f4 !important;
+}
+
+/*
+  =======================
+  More Stories
+  =======================
+*/
+
+.content-box-img {
+  box-sizing: content-box;
 }
 
 /*
@@ -509,6 +535,15 @@ a {
 }
 
 @media (min-width: 768px) {
+  .subscribe-button {
+    font-size: 18px;
+    padding: 0.10em 0.8em;
+  }
+
+  .fa-bars {
+    font-size: 27px;
+  }
+  
   .page-sections {
     border-bottom: none;
   }
@@ -536,5 +571,13 @@ a {
 
   .site-map-li-pipe {
     border-right: 2px solid #f4f5f7;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-logo {
+    width: 396px;
+    height: 60px;
+    margin: 20px auto 10px;
   }
 }
