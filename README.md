@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Newsweek Repsonsive Design using Bootstrap
+# Newsweek Responsive Design using Bootstrap
 
 > Newsweek page clone built using Bootstrap
 
