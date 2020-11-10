@@ -228,6 +228,10 @@ a {
   line-height: 21px !important;
 }
 
+.debate-article-title a:hover {
+  text-decoration: underline #f72210;
+}
+
 .debate-author-name {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
@@ -415,6 +419,10 @@ a {
   color: black !important;
 }
 
+.magazine-h2 a:hover {
+  text-decoration: underline #f72210;
+  color: inherit;
+}
 /*
   =======================
   Editor's Pick
