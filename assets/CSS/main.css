@@ -36,11 +36,17 @@ button {
 */
 
 h1,
-h2,
 h3 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 700;
   line-height: 1em;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 22px;
 }
 
 a {
@@ -157,7 +163,7 @@ a {
 } */
 
 .section-titles {
-  font-size: 16px;
+  font-size: 16px !important;
   text-transform: uppercase;
   color: rgba(3, 3, 3, .4);
   margin-bottom: 0.75em;
@@ -562,6 +568,10 @@ a {
 }
 
 @media (min-width: 768px) {
+  .article-title {
+    font-size: 24px;
+  }
+
   .subscribe-button {
     font-size: 18px;
     padding: 0.10em 0.8em;
