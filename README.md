@@ -6,7 +6,7 @@
 
 This is part of the first module in Microverse on HTML and CSS, where my partner and I had to clone the [Newsweek](https://www.newsweek.com/) page using Bootstrap as our CSS framework. The page is fully responsive and should look exactly like the original one.
 
-![screenshot](./assets/README/#################)
+![screenshot](./assets/README/Newsweek-Desktop-Screenshot.png)
 
 ## Built With
 
