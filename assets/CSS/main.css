@@ -167,6 +167,10 @@ a {
   width: 100%;
 }
 
+.debate-title-a:hover {
+  text-decoration: none;
+}
+
 .debate-item {
   border-width: 4px !important;
 }
@@ -349,6 +353,17 @@ a {
 
 .editors-pick {
   border-bottom: none;
+}
+
+.border-bottom-div::before {
+  position: absolute;
+  content: "";
+  top: calc(61px - 3.5em);
+  left: 16px;
+  right: 16px;
+  border-bottom: solid 2px #e5e5e5;
+  height: 61px;
+  z-index: 10;
 }
 
 /*
