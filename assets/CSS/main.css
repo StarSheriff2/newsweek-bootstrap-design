@@ -119,6 +119,8 @@ a {
 .desktop-nav {
   font-size: 19px;
   font-family: 'Roboto Condensed', sans-serif;
+  max-width: 1310px;
+  margin: 0 auto;
 }
 
 .desktop-nav-top {
@@ -346,6 +348,7 @@ a {
 
 .signUp-heading {
   font-size: 19px;
+  line-height: 28px;
   font-family: Helvetica, 'Roboto Condensed', sans-serif;
   color: #333;
 }
@@ -367,6 +370,17 @@ a {
   In The Magazine
   =======================
 */
+
+.border-bottom-div::before {
+  position: absolute;
+  content: "";
+  top: calc(61px - 3.5em);
+  left: 16px;
+  right: 16px;
+  border-bottom: solid 2px #e5e5e5;
+  height: 61px;
+  z-index: 10;
+}
 
 .in-the-mag-top-img {
   padding-top: 133.47%;
@@ -403,17 +417,6 @@ a {
 
 .editors-pick {
   border-bottom: none;
-}
-
-.border-bottom-div::before {
-  position: absolute;
-  content: "";
-  top: calc(61px - 3.5em);
-  left: 16px;
-  right: 16px;
-  border-bottom: solid 2px #e5e5e5;
-  height: 61px;
-  z-index: 10;
 }
 
 /*
@@ -591,6 +594,22 @@ a {
 
   .magazine-tag {
     bottom: 0;
+  }
+
+  .mag-cover-div {
+    margin-right: 110px;
+  }
+
+  .subscribe-img-1 {
+    right: 0;
+  }
+
+  .subscribe-img-2 {
+    left: 85px;
+  }
+
+  .signUp-heading {
+    font-size: 24px;
   }
 
   .site-map-li-pipe {
