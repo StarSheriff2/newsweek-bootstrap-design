@@ -81,6 +81,7 @@ a:hover {
 
 .nav-bar {
   background: #f72210;
+  height: 50px;
 }
 
 .time-weather-gadget {
@@ -89,6 +90,7 @@ a:hover {
 
 .logo {
   left: 16px;
+  position: absolute;
 }
 
 .navbar-logo {
@@ -731,10 +733,20 @@ a:hover {
 }
 
 @media (min-width: 992px) {
+  .nav-bar {
+    height: 95px;
+    padding-top: 20px
+  }
+  
+  .logo {
+    right: 16px;
+    top: 20px;
+    text-align: center;
+  }
+  
   .navbar-logo {
     width: 396px;
     height: 60px;
-    margin: 20px auto 10px;
   }
 
   .desktop-nav::before {
