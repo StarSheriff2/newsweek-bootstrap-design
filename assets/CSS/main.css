@@ -177,6 +177,17 @@ a:hover {
   height: 0;
 }
 
+/*  
+  =======
+
+  Code Review Comment: Remove !important from your CSS codes, it's a bad practice over-using it
+
+  ========
+
+  FIX: remove !important from font-size
+
+*/
+
 .img-titles-lg {
   font-size: 17px;
   bottom: 0;
@@ -221,6 +232,17 @@ a:hover {
 .debate-title-a:hover {
   text-decoration: none;
 }
+
+/*  
+  =======
+
+  Code Review Comment: Remove !important from your CSS codes, it's a bad practice over-using it
+
+  ========
+
+  FIX: remove !important from border-bottom by creating new class for each item
+
+*/
 
 .debate-item-top {
   border-top: 4px solid #dee2e6;
@@ -416,6 +438,18 @@ a:hover {
   font-size: 18px;
   color: black;
 }
+
+/*  
+  =======
+
+  Code Review Comment: Fix in the magazine section on tablet screens (768px screens), 
+  the titles on bottom are overlapping
+
+  ========
+
+  FIX: the font size and font family in this section to avoid text bleeding over the container edge
+
+*/
 
 .magazine-tag {
   background: #f72210;
@@ -703,6 +737,17 @@ a:hover {
   .newslet-img {
     height: 100%;
   }
+
+/*  
+  =======
+
+  Code Review Comment: Remove !important from your CSS codes, it's a bad practice over-using it
+
+  ========
+
+  FIX: remove !important from border-right
+
+*/
 
   .newsletter-input {
     height: 38px;
