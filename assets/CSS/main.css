@@ -738,16 +738,16 @@ a:hover {
     height: 100%;
   }
 
-/*
-  =======
+  /*
+    =======
 
-  Code Review Comment: Remove !important from your CSS codes, it's a bad practice over-using it
+    Code Review Comment: Remove !important from your CSS codes, it's a bad practice over-using it
 
-  ========
+    ========
 
-  FIX: remove !important from border-right
+    FIX: remove !important from border-right
 
-*/
+  */
 
   .newsletter-input {
     height: 38px;
