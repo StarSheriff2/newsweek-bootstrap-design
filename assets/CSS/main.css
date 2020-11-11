@@ -61,7 +61,7 @@ a:hover {
 }
 
 .helvetica {
-  font-family: Helvetica, "Roboto Condensed", sans-serif !important;
+  font-family: Helvetica, "Roboto Condensed", sans-serif;
 }
 
 /*
@@ -166,7 +166,7 @@ a:hover {
 */
 
 .section-titles {
-  font-size: 16px !important;
+  font-size: 16px;
   text-transform: uppercase;
   color: rgba(3, 3, 3, 0.4);
   margin-bottom: 0.75em;
@@ -180,7 +180,7 @@ a:hover {
 .img-titles-lg {
   font-size: 17px;
   bottom: 0;
-  color: #f72210 !important;
+  color: #f72210;
   background-color: rgba(230, 230, 230, 0.7);
   margin: 0;
 }
@@ -222,13 +222,17 @@ a:hover {
   text-decoration: none;
 }
 
-.debate-item {
-  border-width: 4px !important;
+.debate-item-top {
+  border-top: 4px solid #dee2e6;
+}
+
+.debate-item-bottom {
+  border-bottom: 4px solid #dee2e6;
 }
 
 .debate-article-title {
   font-size: 17px;
-  line-height: 21px !important;
+  line-height: 21px;
 }
 
 .debate-article-title a:hover {
@@ -279,7 +283,7 @@ a:hover {
 */
 
 .opinion-item {
-  border-width: 1px !important;
+  border-width: 1px;
 }
 
 /*
@@ -289,7 +293,7 @@ a:hover {
 */
 
 .img-titles-blue {
-  color: #3581f4 !important;
+  color: #3581f4;
 }
 
 /*
@@ -297,6 +301,9 @@ a:hover {
   More Stories
   =======================
 */
+.more-stories div {
+  overflow: hidden;
+}
 
 .content-box-img {
   box-sizing: content-box;
@@ -335,7 +342,7 @@ a:hover {
 .culture-tag {
   background: #c2d4d7;
   font-weight: bolder;
-  color: #212529 !important;
+  color: #212529;
   font-size: 13px;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -412,14 +419,21 @@ a:hover {
 
 .magazine-tag {
   background: #f72210;
-  color: #fff !important;
+  color: #fff;
   bottom: -5px;
-  font-weight: 500 !important;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.mag-h3-tag-2 {
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .magazine-h2 {
   font-size: 16px;
-  color: black !important;
+  color: black;
 }
 
 .magazine-h2 a:hover {
@@ -444,12 +458,12 @@ a:hover {
 */
 
 .stories-category-section {
-  padding-top: 2em !important;
-  padding-bottom: 2em !important;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .stories-category-h1 {
-  font-size: 22px !important;
+  font-size: 22px;
   color: #f72210;
   text-decoration: none;
 }
@@ -458,8 +472,9 @@ a:hover {
   text-decoration: none;
 }
 
-.stories-category-h2 {
-  font-size: 18px !important;
+.stories-category-h2,
+.stories-category-h2-small {
+  font-size: 18px;
   line-height: 18px;
 }
 
@@ -517,6 +532,7 @@ a:hover {
 
 .newsletter-input {
   border: 1px solid #e5e5e5;
+  border-right: none;
 }
 
 .newslet-btn {
@@ -524,7 +540,7 @@ a:hover {
   color: white;
   font-family: "Roboto Condensed", sans-serif;
   padding: 10px 10px 10px 12px;
-  margin-top: 0 !important;
+  margin-top: 0;
 }
 
 .newslet-btn i {
@@ -618,6 +634,14 @@ a:hover {
     bottom: 0;
   }
 
+  .stories-category-h2 {
+    font-size: 22px;
+  }
+
+  .stories-category-h2-small {
+    font-size: 18px;
+  }
+
   .mag-cover-div {
     margin-right: 125px;
   }
@@ -680,6 +704,6 @@ a:hover {
 
   .newsletter-input {
     height: 38px;
-    border-right: 1px solid #e5e5e5 !important;
+    border-right: 1px solid #e5e5e5;
   }
 }
