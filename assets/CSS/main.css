@@ -177,7 +177,7 @@ a:hover {
   height: 0;
 }
 
-/*  
+/*
   =======
 
   Code Review Comment: Remove !important from your CSS codes, it's a bad practice over-using it
@@ -233,7 +233,7 @@ a:hover {
   text-decoration: none;
 }
 
-/*  
+/*
   =======
 
   Code Review Comment: Remove !important from your CSS codes, it's a bad practice over-using it
@@ -439,10 +439,10 @@ a:hover {
   color: black;
 }
 
-/*  
+/*
   =======
 
-  Code Review Comment: Fix in the magazine section on tablet screens (768px screens), 
+  Code Review Comment: Fix in the magazine section on tablet screens (768px screens),
   the titles on bottom are overlapping
 
   ========
@@ -738,7 +738,7 @@ a:hover {
     height: 100%;
   }
 
-/*  
+/*
   =======
 
   Code Review Comment: Remove !important from your CSS codes, it's a bad practice over-using it
