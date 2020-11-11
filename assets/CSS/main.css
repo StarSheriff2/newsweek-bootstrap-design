@@ -70,10 +70,17 @@ a:hover {
   =======================
 */
 
-.nav-bar {
-  background: #f72210;
+.header {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  right: 0;
   max-width: 1310px;
   margin: 0 auto;
+}
+
+.nav-bar {
+  background: #f72210;
 }
 
 .time-weather-gadget {
@@ -165,6 +172,10 @@ a:hover {
   =======================
 */
 
+.top-story {
+  margin-top: 50px;
+}
+
 .section-titles {
   font-size: 16px;
   text-transform: uppercase;
@@ -215,6 +226,7 @@ a:hover {
   Featured Stories
   =======================
 */
+
 .article-title-light {
   background: rgba(255, 255, 255, 0.9);
 }
@@ -636,6 +648,10 @@ a:hover {
     font-size: 24px;
   }
 
+  .featured-stories-section {
+    margin-top: 50px;
+  }
+
   .subscribe-button {
     font-size: 18px;
     padding: 0.1em 0.8em;
@@ -731,6 +747,12 @@ a:hover {
     background-color: #f72210;
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
+  }
+
+  .top-story,
+  .featured-stories-section,
+  .the-debate {
+    margin-top: 192px;
   }
 
   .newslet-img-container,
