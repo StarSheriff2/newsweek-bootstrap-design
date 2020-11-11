@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Newsweek - News, Analysis, Politics, Business,...</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/CSS/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="hidden">Header</h1>
+    <!-- Navbar -->
+    <nav class="nav-bar d-flex justify-content-between align-items-center">
+      <h2 class="hidden">Navbar</h2>
+      <div class="time-weather-gadget helvetica d-none d-lg-flex justify-content-between flex-column text-light ml-3">
+        <div class="weather-place mb-2"><i class="fas fa-cloud-sun"></i> 19° Monterrey, MX <i
+            class="fas fa-chevron-right"></i></div>
+        <div class="date">Tue, Nov 10, 2020</div>
+      </div>
+      <div class="logo ml-3"><a href="#"><svg class="navbar-logo" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
+            style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+            <g>
+              <path class="st0"
+                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+              </path>
+            </g>
+          </svg></a></div>
+      <div class="nav-buttons d-flex align-items-center align-self-lg-end mb-lg-3">
+        <button type="button" class="user-icon border-0 mx-2 d-md-none"></button>
+        <a href="" class="d-none helvetica user-login text-light mr-4 text-uppercase d-md-block">Login</a>
+        <button type="button" class="subscribe-button text-uppercase helvetica btn rounded-pill">subscribe <i
+            class="fas fa-chevron-right"></i></button>
+        <a class="mx-3" href=""><i class="fas fa-bars d-lg-none"></i></a>
+      </div>
+    </nav>
+    <nav class="desktop-nav position-relative d-none d-lg-block">
+      <h2 class="hidden">Navbar-2</h2>
+      <div class="desktop-nav-top d-flex align-items-center text-dark font-weight-bolder bg-white border-bottom">
+        <ul class="list-unstyled justify-content-between flex-grow-1 d-flex align-items-center m-0">
+          <li class="px-2 site-map-li-pipe my-3 flex-grow-1 text-center"><a href="#">U.S.</a></li>
+          <li class="px-2 site-map-li-pipe my-3 flex-grow-1 text-center"><a href="#">World</a></li>
+          <li class="px-2 site-map-li-pipe my-3 flex-grow-1 text-center"><a href="#">Tech & Science</a></li>
+          <li class="px-2 site-map-li-pipe my-3 flex-grow-1 text-center"><a href="#">Culture</a></li>
+          <li class="px-2 site-map-li-pipe my-3 flex-grow-1 text-center"><a href="#">Newsgeek</a></li>
+          <li class="px-2 site-map-li-pipe my-3 flex-grow-1 text-center"><a href="#">Sports</a></li>
+          <li class="px-2 site-map-li-pipe my-3 flex-grow-1 text-center"><a href="#">Health</a></li>
+          <li class="px-2 site-map-li-pipe my-3 flex-grow-1 text-center"><a href="#">The Debate</a></li>
+          <li class="px-2 site-map-li-pipe my-3 flex-grow-1 text-center"><a href="#">Vantage</a></li>
+          <li class="px-2 my-3 flex-grow-1 text-center"><a href="#">Weather</a></li>
+        </ul>
+        <form action="post" class="flex-grow-0">
+          <input class="search-input mb-1 border-0" type="search" placeholder="Search">
+          <img class="position-relative search-icon-nav" src="assets/Images/icon-search-glass.svg" alt="search-icon">
+        </form>
+      </div>
+      <div class="d-flex align-items-center pl-3 text-dark font-weight-bolder bg-white border-bottom">
+        <ul class="list-unstyled d-flex align-items-center m-0">
+          <li class="px-3 my-3 desktop-nav-bottom-li text-uppercase"><a href="#" class="text-nowrap">trending</a></li>
+          <li class="px-3 my-3 desktop-nav-bottom-li text-secondary text-uppercase"><a href="#"
+              class="text-nowrap">donald trump</a></li>
+          <li class="px-3 my-3 desktop-nav-bottom-li text-secondary text-uppercase"><a href="#" class="text-nowrap">joe
+              biden</a></li>
+          <li class="px-3 my-3 desktop-nav-bottom-li text-secondary text-uppercase"><a href="#" class="text-nowrap">2020
+              election</a></li>
+          <li class="px-3 my-3 desktop-nav-bottom-li text-secondary text-uppercase"><a href="#"
+              class="text-nowrap">stimulus package</a></li>
+          <li class="px-3 my-3 desktop-nav-bottom-li text-secondary text-uppercase"><a href="#"
+              class="text-nowrap">coronavirus</a></li>
+          <li class="px-3 my-3 desktop-nav-bottom-li text-secondary text-uppercase"><a href="#"
+              class="text-nowrap">counties that count</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Main -->
+  <main class="main-content container-fluid bg-white p-0 px-lg-3 d-flex flex-wrap align-items-start">
+    <h1 class="hidden">Main Content</h1>
+    <div class="row no-gutters">
+      <div class="col-md-5 col-lg">
+        <!-- Top Story -->
+        <section class="d-md-none page-sections top-story d-flex flex-wrap p-3 mb-3 mb-md-0 flex-grow-1 flex-shrink-1">
+          <h1 class="section-titles">Top Story</h1>
+          <article>
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/topStory-1.jpg) center / cover;">
+              <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase border-0">Politics</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title my-3"><a class="text-body" href="#">Election Day Final Forecasts and Polls on Who
+                Is Projected
+                to Win</a></h2>
+            <p class="article-para mb-0">Lorem ipsum dolor sit amet, ullum semper principes ius ex. Ei eum legere essent
+              aliquid. Facer discere eu eam, et sit sumo eros laoreet. Impetus prodesset disputando ei vix, delicata
+              iracundia temporibus qui ex.</p>
+          </article>
+        </section>
+        <!-- Featured Stories -->
+        <section
+          class="page-sections featured-stories featured-stories-section d-flex flex-wrap pt-3 pr-3 pl-3 mb-3 mb-md-0 flex-grow-1 flex-shrink-1">
+          <h1 class="section-titles">Featured Stories</h1>
+          <article class="pb-3">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/featuredStories-1.jpg) center / cover;">
+              <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase article-title-light">U.S.</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title my-3"><a class="text-body" href="#">Democrats Said to Flip Senate, Expand House
+                Majority
+                at 2020 Election</a></h2>
+            <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+              fabulas
+              electram id sit, cu recusabo incorrupte eos. Eos essent intellegam ei, et ponderum apeirian sea. Ad vis
+              graeco
+              saperet rationibus. Est ad cibo graeco, eu dolore sapientem qui, noster appareat efficiendi id eum.</p>
+          </article>
+          <article class="pb-3">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/featuredStories-2.jpg) center / cover;">
+              <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase article-title-light">U.S.</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title my-3"><a class="text-body" href="#">On Election Day, Trump's Approval Rating Is
+                Lower Than
+                Jimmy Carters</a></h2>
+            <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+              fabulas
+              electram id sit, cu recusabo incorrupte eos. Eos essent intellegam ei, et ponderum apeirian sea. Ad vis
+              graeco
+              saperet rationibus. Est ad cibo graeco, eu dolore sapientem qui, noster appareat efficiendi id eum.</p>
+          </article>
+          <article class="pb-3">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/featuredStories-3.jpg) center / cover;">
+              <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase article-title-light">U.S.</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title my-3"><a class="text-body" href="#">Biden Becomes First Candidate Since Nixon To
+                Win All
+                Dickville Notch Votes</a></h2>
+            <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+              fabulas
+              electram id sit, cu recusabo incorrupte eos. Eos essent intellegam ei, et ponderum apeirian sea. Ad vis
+              graeco
+              saperet rationibus. Est ad cibo graeco, eu dolore sapientem qui, noster appareat efficiendi id eum.</p>
+          </article>
+          <article class="pb-3">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/featuredStories-4.jpg) center / cover;">
+              <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase article-title-light">U.S.</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title my-3"><a class="text-body" href="#">On Election Day, Here Are States Worst Affected
+                By Covid</a></h2>
+            <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+              fabulas
+              electram id sit, cu recusabo incorrupte eos. Eos essent intellegam ei, et ponderum apeirian sea. Ad vis
+              graeco
+              saperet rationibus. Est ad cibo graeco, eu dolore sapientem qui, noster appareat efficiendi id eum.</p>
+          </article>
+          <article class="pb-3">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/featuredStories-5.jpg) center / cover;">
+              <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase article-title-light">U.S.</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title my-3"><a class="text-body" href="#">Despite Trump's Attacks, Voters Want All
+                Mail-In Ballots
+                Counted: Poll</a></h2>
+            <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+              fabulas
+              electram id sit, cu recusabo incorrupte eos. Eos essent intellegam ei, et ponderum apeirian sea. Ad vis
+              graeco
+              saperet rationibus. Est ad cibo graeco, eu dolore sapientem qui, noster appareat efficiendi id eum.</p>
+          </article>
+        </section>
+        <!-- Insight & Rankings Left section -->
+        <aside
+          class="special-section-left page-sections d-flex flex-wrap pt-3 pr-3 pl-3 mb-3 mb-md-0  flex-grow-1 flex-shrink-1">
+          <h1 class="hidden">Insights & Rankings 1</h1>
+          <article class="pb-4">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/insight-left-1.jpg) center / cover;">
+              <h3 class="img-titles-lg img-titles-blue position-absolute px-3 py-2 text-uppercase article-title-light">
+                SPONSORED INSIGHT</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <div class="p-4 border">
+              <h2 class="article-title mt-0"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+                  tincidunt
+                  eu</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+          </article>
+          <article class="pb-4">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/insight-left-2.png) center / cover;">
+              <h3 class="img-titles-lg img-titles-blue position-absolute px-3 py-2 text-uppercase article-title-light">
+                SPONSORED INSIGHT</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <div class="p-4 border">
+              <h2 class="article-title mt-0"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+                  tincidunt
+                  eu</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+          </article>
+          <article class="pb-4">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/insight-left-3.png) center / cover;">
+              <h3 class="img-titles-lg img-titles-blue position-absolute px-3 py-2 text-uppercase article-title-light">
+                SPONSORED INSIGHT</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <div class="p-4 border">
+              <h2 class="article-title mt-0"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+                  tincidunt
+                  eu</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+          </article>
+          <article class="pb-4">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/insight-left-4.png) center / cover;">
+              <h3 class="img-titles-lg img-titles-blue position-absolute px-3 py-2 text-uppercase article-title-light">
+                SPONSORED INSIGHT</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <div class="p-4 border">
+              <h2 class="article-title mt-0"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+                  tincidunt
+                  eu</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+          </article>
+          <article class="pb-4">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/insight-left-5.png) center / cover;">
+              <h3 class="img-titles-lg img-titles-blue position-absolute px-3 py-2 text-uppercase article-title-light">
+                SPONSORED INSIGHT</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <div class="p-4 border">
+              <h2 class="article-title mt-0"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+                  tincidunt
+                  eu</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+          </article>
+          <article class="pb-4">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/insight-left-6.png) center / cover;">
+              <h3 class="img-titles-lg img-titles-blue position-absolute px-3 py-2 text-uppercase article-title-light">
+                SPONSORED INSIGHT</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <div class="p-4 border">
+              <h2 class="article-title mt-0"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+                  tincidunt
+                  eu</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+          </article>
+        </aside>
+      </div>
+      <div class="middle-col col-md-7 col-lg-5">
+        <!-- Top Story -->
+        <section class="d-none page-sections top-story d-md-flex flex-wrap p-3 mb-3 mb-md-0 flex-grow-1 flex-shrink-1">
+          <h1 class="section-titles">Top Story</h1>
+          <article>
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/topStory-1.jpg) center / cover;">
+              <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase border-0">Politics</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title my-3"><a class="text-body" href="#">Election Day Final Forecasts and Polls on Who
+                Is Projected
+                to Win</a></h2>
+            <p class="article-para mb-0">Lorem ipsum dolor sit amet, ullum semper principes ius ex. Ei eum legere essent
+              aliquid. Facer discere eu eam, et sit sumo eros laoreet. Impetus prodesset disputando ei vix, delicata
+              iracundia temporibus qui ex.</p>
+          </article>
+        </section>
+        <div class="d-flex flex-column">
+          <!-- More Stories -->
+          <section class="more-stories page-sections pt-3 pr-3 pl-3 mb-3 mb-md-0 flex-grow-1 flex-shrink-1 order-md-3">
+            <h1 class="section-titles">More Stories</h1>
+            <div class="opinion-item border-bottom border-top py-3">
+              <a href="#"><img src="assets/Images/moreStories-1.jpg" alt="Opinion Author's image" width="95" height="95"
+                  class="float-left mr-3 pb-3 content-box-img"></a>
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas
+                electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+            <div class="opinion-item border-bottom py-3">
+              <a href="#"><img src="assets/Images/moreStories-2.jpg" alt="Opinion Author's image" width="95" height="95"
+                  class="float-left mr-3 pb-3 content-box-img"></a>
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas
+                electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+            <div class="opinion-item border-bottom py-3">
+              <a href="#"><img src="assets/Images/moreStories-3.jpg" alt="Opinion Author's image" width="95" height="95"
+                  class="float-left mr-3 pb-3 content-box-img"></a>
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas
+                electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+            <div class="opinion-item border-bottom py-3">
+              <a href="#"><img src="assets/Images/moreStories-4.jpg" alt="Opinion Author's image" width="95" height="95"
+                  class="float-left mr-3 pb-3 content-box-img"></a>
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas
+                electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+            <div class="opinion-item border-bottom py-3">
+              <a href="#"><img src="assets/Images/moreStories-5.jpg" alt="Opinion Author's image" width="95" height="95"
+                  class="float-left mr-3 pb-3 content-box-img"></a>
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas
+                electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+            <div class="opinion-item border-bottom py-3">
+              <a href="#"><img src="assets/Images/moreStories-6.jpg" alt="Opinion Author's image" width="95" height="95"
+                  class="float-left mr-3 pb-3 content-box-img"></a>
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas
+                electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+            <div class="opinion-item border-bottom py-3">
+              <a href="#"><img src="assets/Images/moreStories-7.jpg" alt="Opinion Author's image" width="95" height="95"
+                  class="float-left mr-3 pb-3 content-box-img"></a>
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas
+                electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+            <div class="opinion-item border-bottom py-3">
+              <a href="#"><img src="assets/Images/moreStories-8.jpg" alt="Opinion Author's image" width="95" height="95"
+                  class="float-left mr-3 pb-3 content-box-img"></a>
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas
+                electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+            <div class="opinion-item border-bottom py-3">
+              <a href="#"><img src="assets/Images/moreStories-9.jpg" alt="Opinion Author's image" width="95" height="95"
+                  class="float-left mr-3 pb-3 content-box-img"></a>
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas
+                electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+            <div class="opinion-item border-bottom py-3">
+              <a href="#"><img src="assets/Images/moreStories-10.jpg" alt="Opinion Author's image" width="95"
+                  height="95" class="float-left mr-3 pb-3 content-box-img"></a>
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas
+                electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+            <div class="opinion-item border-bottom py-3">
+              <a href="#"><img src="assets/Images/moreStories-11.jpg" alt="Opinion Author's image" width="95"
+                  height="95" class="float-left mr-3 pb-3 content-box-img"></a>
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas
+                electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+            <div class="opinion-item border-bottom py-3">
+              <a href="#"><img src="assets/Images/moreStories-12.jpg" alt="Opinion Author's image" width="95"
+                  height="95" class="float-left mr-3 pb-3 content-box-img"></a>
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas
+                electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+          </section>
+          <div class="culture-items flex-grow-1 flex-shrink-1 w-100">
+            <!--================= My Turn =================-->
+            <section class="my-turn page-sections my-turn d-flex flex-wrap p-3 flex-grow-1 flex-shrink-1">
+              <h1 class="section-titles">My Turn</h1>
+              <div class="row mx-md-n2">
+                <article class="pb-3 w-100 col-md px-md-2">
+                  <div class="img-container img-container-lg position-relative"
+                    style="background: black url(assets/Images/myTurn-1.jpg) center / cover;">
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <h2 class="my-turn-title mb-0 my-3 font-weight-bolder"><a class="text-reset" href="#">"Lorem ipsum
+                      dolor
+                      sit
+                      amet, te novum impedit accusamus usu"</a></h2>
+                </article>
+                <article class="pb-3 w-100 col-md px-md-2">
+                  <div class="img-container img-container-lg position-relative"
+                    style="background: black url(assets/Images/myTurn-2.jpg) center / cover;">
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <h2 class="my-turn-title mb-0 my-3 font-weight-bolder"><a class="text-reset" href="#">"Lorem ipsum
+                      dolor
+                      sit
+                      amet, te novum impedit accusamus usu"</a></h2>
+                </article>
+                <article class="pb-3 w-100 col-md px-md-2">
+                  <div class="img-container img-container-lg position-relative"
+                    style="background: black url(assets/Images/myTurn-3.png) center / cover;">
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <h2 class="my-turn-title mb-0 my-3 font-weight-bolder"><a class="text-reset" href="#">"Lorem ipsum
+                      dolor
+                      sit
+                      amet, te novum impedit accusamus usu"</a></h2>
+                </article>
+              </div>
+            </section>
+            <!--================= Culture & Travel =================-->
+            <section
+              class="culture-and-travel page-sections d-flex flex-wrap p-3 mb-3 mb-md-0 flex-grow-1 flex-shrink-1">
+              <h1 class="section-titles">Culture & Travel</h1>
+              <div class="row mx-md-n2">
+                <article class="pb-3 w-100 col-md px-md-2">
+                  <div class="img-container img-container-lg position-relative"
+                    style="background: black url(assets/Images/cultureTravel-1.jpg) center / cover;">
+                    <a class="img-titles-lg culture-tag position-absolute px-2 pt-1 pb-0">JAMES BOND</a>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <h2 class="my-turn-title mb-0 my-3 font-weight-bolder"><a class="text-reset" href="#">Lorem ipsum
+                      dolor
+                      sit
+                      amet, te novum impedit accusamus usu</a></h2>
+                </article>
+                <article class="pb-3 w-100 col-md px-md-2">
+                  <div class="img-container img-container-lg position-relative"
+                    style="background: black url(assets/Images/cultureTravel-2.jpg) center / cover;">
+                    <a class="img-titles-lg culture-tag position-absolute px-2 pt-1 pb-0">JAMES BOND</a>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <h2 class="my-turn-title mb-0 my-3 font-weight-bolder"><a class="text-reset" href="#">Lorem ipsum
+                      dolor
+                      sit
+                      amet, te novum impedit accusamus usu</a></h2>
+                </article>
+                <article class="pb-3 w-100 col-md px-md-2">
+                  <div class="img-container img-container-lg position-relative"
+                    style="background: black url(assets/Images/cultureTravel-3.png) center / cover;">
+                    <a class="img-titles-lg culture-tag position-absolute px-2 pt-1 pb-0">JAMES BOND</a>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <h2 class="my-turn-title mb-0 my-3 font-weight-bolder"><a class="text-reset" href="#">Lorem ipsum
+                      dolor
+                      sit
+                      amet, te novum impedit accusamus usu</a></h2>
+                </article>
+              </div>
+            </section>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-lg">
+        <!-- Debate Section-->
+        <section class="the-debate page-sections pt-3 pr-3 pl-3 pb-3 mb-3 mb-md-0 flex-grow-1 flex-shrink-1">
+          <h1 class="section-titles"><a href="#" class="text-reset debate-title-a">The Debate</a></h1>
+          <div class="debate-item-top d-flex align-items-center pt-3">
+            <a href="#"><img src="assets/Images/debate-1.png" alt="Will Chamberlain image" width="63" class="mr-3"></a>
+            <div class="debate-author">
+              <h2 class="debate-article-title"><a class="text-dark" href="#">Reform Section 230 Now</a></h2>
+              <p class="debate-author-name text-uppercase">By<span> Will Chamberlain</span></p>
+            </div>
+          </div>
+          <div class="debate-vs-container position-relative">
+            <div class="debate-line-division position-relative line-1"></div>
+            <div class="debate-line-division position-relative line-2"></div>
+            <div class="debate-VS rounded-circle bg-dark text-center position-absolute">VS</div>
+          </div>
+          <div class="debate-item-bottom d-flex align-items-center justify-content-between pb-3 pt-3">
+            <div class="debate-author">
+              <h2 class="debate-article-title"><a class="text-dark" href="#">Leave Section to 230 Alone</a></h2>
+              <p class="debate-author-name text-uppercase mb-0">By<span> Matthew Feeney</span></p>
+            </div>
+            <a href="#"><img src="assets/Images/debate-2.png" alt="Matthew Feeney image" width="63" class="mr-3"></a>
+          </div>
+        </section>
+        <!-- Opinion Section -->
+        <section class="opinion page-sections pt-3 pr-3 pl-3 mb-3 mb-md-0 flex-grow-1 flex-shrink-1">
+          <h1 class="section-titles"><a href="#" class="text-reset debate-title-a">Opinion</a></h1>
+          <div class="opinion-item d-flex align-items-start border-bottom">
+            <a href="#"><img src="assets/Images/opinion-1.png" alt="Opinion Author's image" width="63"
+                class="mr-3 mb-3 flex-shrink-0"></a>
+            <div class="debate-author">
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="debate-author-name text-uppercase font-weight-bolder">By Keisha Lance and Martin J. Walsh</p>
+            </div>
+          </div>
+          <div class="opinion-item d-flex align-items-start border-bottom pt-3">
+            <a href="#"><img src="assets/Images/opinion-2.png" alt="Opinion Author's image" width="63"
+                class="mr-3 mb-3 flex-shrink-0"></a>
+            <div class="debate-author">
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="debate-author-name text-uppercase font-weight-bolder">By Keisha Lance and Martin J. Walsh</p>
+            </div>
+          </div>
+          <div class="opinion-item d-flex align-items-start border-bottom pt-3">
+            <a href="#"><img src="assets/Images/opinion-3.png" alt="Opinion Author's image" width="63"
+                class="mr-3 mb-3 flex-shrink-0"></a>
+            <div class="debate-author">
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="debate-author-name text-uppercase font-weight-bolder">By Keisha Lance and Martin J. Walsh</p>
+            </div>
+          </div>
+          <div class="opinion-item d-flex align-items-start border-bottom pt-3">
+            <a href="#"><img src="assets/Images/opinion-4.png" alt="Opinion Author's image" width="63"
+                class="mr-3 mb-3 flex-shrink-0"></a>
+            <div class="debate-author">
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="debate-author-name text-uppercase font-weight-bolder">By Keisha Lance and Martin J. Walsh</p>
+            </div>
+          </div>
+          <div class="opinion-item d-flex align-items-start border-bottom pt-3">
+            <a href="#"><img src="assets/Images/opinion-5.png" alt="Opinion Author's image" width="63"
+                class="mr-3 mb-3 flex-shrink-0"></a>
+            <div class="debate-author">
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="debate-author-name text-uppercase font-weight-bolder">By Keisha Lance and Martin J. Walsh</p>
+            </div>
+          </div>
+          <div class="opinion-item d-flex align-items-start border-bottom pt-3">
+            <a href="#"><img src="assets/Images/opinion-6.png" alt="Opinion Author's image" width="63"
+                class="mr-3 mb-3 flex-shrink-0"></a>
+            <div class="debate-author">
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="debate-author-name text-uppercase font-weight-bolder">By Keisha Lance and Martin J. Walsh</p>
+            </div>
+          </div>
+          <div class="opinion-item d-flex align-items-start border-bottom pt-3">
+            <a href="#"><img src="assets/Images/opinion-7.png" alt="Opinion Author's image" width="63"
+                class="mr-3 mb-3 flex-shrink-0"></a>
+            <div class="debate-author">
+              <h2 class="debate-article-title"><a class="text-dark" href="#">As Mayors, We Need a President Who Works
+                  With
+                  Us, Not Against Us</a></h2>
+              <p class="debate-author-name text-uppercase font-weight-bolder">By Keisha Lance and Martin J. Walsh</p>
+            </div>
+          </div>
+        </section>
+        <!-- Insight & Rankings Right section -->
+        <aside
+          class="special-section-left special-section-right page-sections d-flex flex-column flex-wrap pt-3 pr-3 pl-3 mb-3 mb-md-0 flex-grow-1 flex-shrink-1">
+          <h1 class="hidden">Insights & Rankings 2</h1>
+          <article class="pb-4">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/insight-right-1.jpg) center / cover;">
+              <h3 class="img-titles-lg img-titles-blue position-absolute px-3 py-2 text-uppercase article-title-light">
+                SPONSORED INSIGHT</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <div class="p-4 border">
+              <h2 class="article-title mt-0"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+                  tincidunt
+                  eu</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+          </article>
+          <!-- Sign Up Form -->
+          <div class="signUp-container p-3 d-flex flex-column align-items-center mb-4">
+            <div class="signUp-header d-flex align-items-center">
+              <img class="signUp-img flex-shrink-0 d-block" src="assets/Images/N-logo-small.svg" alt="N-logo">
+              <h2 class="signUp-heading ml-3 mb-0 pr-2">START YOUR DAY WITH OUR TOP 5 ARTICLES</h2>
+            </div>
+            <form class="free-signup" action="post">
+              <input type="email" class="w-100 mt-3 signUp-input text-muted p-2" placeholder="Email address">
+              <button class="signUp-btn btn w-100 mt-2" type="submit">FREE SIGN UP <i
+                  class="fas fa-chevron-right"></i></button>
+            </form>
+          </div>
+          <article class="pb-4">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/insight-left-2.png) center / cover;">
+              <h3 class="img-titles-lg img-titles-blue position-absolute px-3 py-2 text-uppercase article-title-light">
+                SPONSORED INSIGHT</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <div class="p-4 border">
+              <h2 class="article-title mt-0"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+                  tincidunt
+                  eu</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+          </article>
+          <article class="pb-4">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/insight-right-2.png) center / cover;">
+              <h3 class="img-titles-lg img-titles-blue position-absolute px-3 py-2 text-uppercase article-title-light">
+                SPONSORED INSIGHT</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <div class="p-4 border">
+              <h2 class="article-title mt-0"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+                  tincidunt
+                  eu</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+          </article>
+          <article class="pb-4">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/insight-right-3.png) center / cover;">
+              <h3 class="img-titles-lg img-titles-blue position-absolute px-3 py-2 text-uppercase article-title-light">
+                SPONSORED INSIGHT</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <div class="p-4 border">
+              <h2 class="article-title mt-0"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+                  tincidunt
+                  eu</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+          </article>
+          <article class="pb-4">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/insight-right-4.jpg) center / cover;">
+              <h3 class="img-titles-lg img-titles-blue position-absolute px-3 py-2 text-uppercase article-title-light">
+                SPONSORED INSIGHT</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <div class="p-4 border">
+              <h2 class="article-title mt-0"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+                  tincidunt
+                  eu</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+          </article>
+          <article class="pb-4">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/insight-right-5.png) center / cover;">
+              <h3 class="img-titles-lg img-titles-blue position-absolute px-3 py-2 text-uppercase article-title-light">
+                SPONSORED INSIGHT</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <div class="p-4 border">
+              <h2 class="article-title mt-0"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+                  tincidunt
+                  eu</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+          </article>
+          <article class="pb-4">
+            <div class="img-container position-relative"
+              style="background: black url(assets/Images/insight-right-6.png) center / cover;">
+              <h3 class="img-titles-lg img-titles-blue position-absolute px-3 py-2 text-uppercase article-title-light">
+                SPONSORED INSIGHT</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <div class="p-4 border">
+              <h2 class="article-title mt-0"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+                  tincidunt
+                  eu</a></h2>
+              <p class="article-para mb-0">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at. Harum
+                fabulas electram id sit, cu recusabo incorrupte eos.</p>
+            </div>
+          </article>
+        </aside>
+      </div>
+    </div>
+    <!-- In the Magazine Section -->
+    <section
+      class="page-sections in-the-magazine position-relative d-flex flex-wrap pt-3 pr-3 pl-3 mb-3 mb-md-0 flex-grow-1 flex-shrink-1 justify-content-center">
+      <div class="d-flex align-items-center py-3 mb-3 border-bottom-div">
+        <img class="signUp-img flex-shrink-0 d-block" src="assets/Images/N-logo-small.svg" alt="N-logo">
+        <h1 class="signUp-heading ml-3 mb-0 pr-2 text-uppercase">In the Magazine</h1>
+      </div>
+      <!-- First biggest article -->
+      <div class="row align-items-start">
+        <article class="w-100 mb-0 mt-md-4 mt-lg-0 col-md-3 align-self-end">
+          <div class="img-container position-relative in-the-mag-top-img"
+            style="background: black url(assets/Images/inTheMagazine-1.jpg) center / cover;">
+            <h3 class="mag-h3-tag-2 img-titles-lg position-absolute px-3 py-2 text-uppercase article-title-light">
+              November 13 Issue
+            </h3>
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <a href="#" class="d-block bg-light mt-2 p-2 text-center font-weight-bold see-all-features">SEE ALL FEATURES
+            <i class="fas fa-chevron-right"></i></a>
+        </article>
+        <!-- End of first biggest article -->
+        <article class="pb-3 mt-0 w-100 col-md-3">
+          <div class="img-container position-relative bottom-section-images editors-pick-md-img"
+            style="background: black url(assets/Images/inTheMagazine-2.jpg) center / cover;">
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <div class="d-flex my-3">
+            <h3 class="img-titles-lg magazine-tag px-2 py-1 text-uppercase">COVER</h3>
+            <h3 class="mag-h3-tag-2 img-titles-lg px-2 py-1 text-uppercase article-title-light"><a href="#">WORLD</a>
+            </h3>
+          </div>
+          <h2 class="magazine-h2 my-3"><a href="#">Lorem ipsum dolor sit amet, per stet tincidunt eu, suas dignissim
+              ei</a></h2>
+        </article>
+        <article class="pb-3 mt-0 w-100 col-md-3">
+          <div class="img-container position-relative bottom-section-images editors-pick-md-img"
+            style="background: black url(assets/Images/inTheMagazine-3.jpg) center / cover;">
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <div class="d-flex my-3">
+            <h3 class="img-titles-lg magazine-tag px-2 py-1 text-uppercase">PERISCOPE</h3>
+            <h3 class="mag-h3-tag-2 img-titles-lg px-2 py-1 text-uppercase article-title-light"><a href="#">U.S.</a>
+            </h3>
+          </div>
+          <h2 class="magazine-h2 my-3"><a href="#">Lorem ipsum dolor sit amet, per stet tincidunt eu, suas dignissim
+              ei</a></h2>
+        </article>
+        <article class="pb-3 mt-0 w-100 col-md-3">
+          <div class="img-container position-relative bottom-section-images editors-pick-md-img"
+            style="background: black url(assets/Images/inTheMagazine-4.jpg) center / cover;">
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <div class="d-flex my-3">
+            <h3 class="img-titles-lg magazine-tag px-2 py-1 text-uppercase">PERISCOPE</h3>
+            <h3 class="mag-h3-tag-2 img-titles-lg px-2 py-1 text-uppercase article-title-light"><a href="#">OPINION</a>
+            </h3>
+          </div>
+          <h2 class="magazine-h2 my-3"><a href="#">Lorem ipsum dolor sit amet, per stet tincidunt eu, suas dignissim
+              ei</a></h2>
+        </article>
+        <article class="pb-3 mt-0 w-100 col-md-3 mt-md-4">
+          <div class="img-container position-relative bottom-section-images editors-pick-md-img"
+            style="background: black url(assets/Images/inTheMagazine-5.jpg) center / cover;">
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <div class="d-flex my-3">
+            <h3 class="img-titles-lg magazine-tag px-2 py-1 text-uppercase">PERISCOPE</h3>
+            <h3 class="mag-h3-tag-2 img-titles-lg px-2 py-1 text-uppercase article-title-light"><a href="#">CULTURE</a>
+            </h3>
+          </div>
+          <h2 class="magazine-h2 my-3"><a href="#">Lorem ipsum dolor sit amet, per stet tincidunt eu, suas dignissim
+              ei</a></h2>
+        </article>
+        <article class="pb-3 mt-0 w-100 col-md-3 mt-md-4">
+          <div class="img-container position-relative bottom-section-images editors-pick-md-img"
+            style="background: black url(assets/Images/inTheMagazine-6.jpg) center / cover;">
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <div class="d-flex my-3">
+            <h3 class="img-titles-lg magazine-tag px-2 py-1 text-uppercase">DOWNTIME</h3>
+            <h3 class="mag-h3-tag-2 img-titles-lg px-2 py-1 text-uppercase article-title-light"><a href="#">CULTURE</a>
+            </h3>
+          </div>
+          <h2 class="magazine-h2 my-3"><a href="#">Lorem ipsum dolor sit amet, per stet tincidunt eu, suas dignissim
+              ei</a></h2>
+        </article>
+        <article class="pb-3 mt-0 w-100 col-md-3 mt-md-4">
+          <div class="img-container position-relative bottom-section-images editors-pick-md-img"
+            style="background: black url(assets/Images/inTheMagazine-7.jpg) center / cover;">
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <div class="d-flex my-3">
+            <h3 class="img-titles-lg magazine-tag px-2 py-1 text-uppercase">DOWNTIME</h3>
+            <h3 class="mag-h3-tag-2 img-titles-lg px-2 py-1 text-uppercase article-title-light"><a href="#">CULTURE</a>
+            </h3>
+          </div>
+          <h2 class="magazine-h2 my-3"><a href="#">Lorem ipsum dolor sit amet, per stet tincidunt eu, suas dignissim
+              ei</a></h2>
+        </article>
+        <article class="pb-3 mt-0 w-100 col-md-3 mt-md-4">
+          <div class="img-container position-relative bottom-section-images magazine-inFocus"
+            style="background: black url(assets/Images/inTheMagazine-8.jpg) center / cover;">
+            <h3 class="mag-h3-tag-2 img-titles-lg position-absolute magazine-tag px-2 py-1 text-uppercase helvetica">In
+              Focus</h3>
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <h2 class="magazine-h2 my-3 text-uppercase helvetica"><a href="#">Lorem ipsum</a></h2>
+        </article>
+      </div>
+    </section>
+    <!--=============== Editor's Pick ===============-->
+    <section
+      class="page-sections position-relative editors-pick d-flex flex-wrap p-3 flex-grow-1 flex-shrink-1 justify-content-center">
+      <div class="d-flex align-items-center py-3 mb-3 border-bottom-div">
+        <img class="signUp-img flex-shrink-0 d-block" src="assets/Images/N-logo-small.svg" alt="N-logo">
+        <h1 class="signUp-heading ml-3 mb-0 pr-2 text-uppercase">Editor's Pick</h1>
+      </div>
+      <div class="row">
+        <article class="pb-3 col-md-6 col-lg-3">
+          <div class="img-container position-relative bottom-section-images"
+            style="background: black url(assets/Images/editorsPick-1.jpg) center / cover;">
+            <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase article-title-light">News</h3>
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <h2 class="article-title my-3 helvetica"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+              tincidunt eu, suas dignissim ei</a></h2>
+          <p class="article-para mb-0 text-muted">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at.
+            Harum fabulas electram id sit, cu recusabo incorrupte eos. Eos essent intellegam ei, et ponderum apeirian
+            sea.
+          </p>
+        </article>
+        <article class="pb-3 col-md-6 col-lg-3">
+          <div class="img-container position-relative bottom-section-images"
+            style="background: black url(assets/Images/editorsPick-2.jpg) center / cover;">
+            <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase article-title-light">U.S.</h3>
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <h2 class="article-title my-3 helvetica"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+              tincidunt eu, suas dignissim ei</a></h2>
+          <p class="article-para mb-0 text-muted">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at.
+            Harum fabulas electram id sit, cu recusabo incorrupte eos. Eos essent intellegam ei, et ponderum apeirian
+            sea.
+          </p>
+        </article>
+        <article class="pb-3 col-md-6 col-lg-3">
+          <div class="img-container position-relative bottom-section-images"
+            style="background: black url(assets/Images/editorsPick-3.jpg) center / cover;">
+            <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase article-title-light">U.S.</h3>
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <h2 class="article-title my-3 helvetica"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+              tincidunt eu, suas dignissim ei</a></h2>
+          <p class="article-para mb-0 text-muted">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at.
+            Harum fabulas electram id sit, cu recusabo incorrupte eos. Eos essent intellegam ei, et ponderum apeirian
+            sea.
+          </p>
+        </article>
+        <article class="pb-3 col-md-6 col-lg-3">
+          <div class="img-container position-relative bottom-section-images"
+            style="background: black url(assets/Images/editorsPick-4.jpg) center / cover;">
+            <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase article-title-light">Tech & News</h3>
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <h2 class="article-title my-3 helvetica"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+              tincidunt eu, suas dignissim ei</a></h2>
+          <p class="article-para mb-0 text-muted">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at.
+            Harum fabulas electram id sit, cu recusabo incorrupte eos. Eos essent intellegam ei, et ponderum apeirian
+            sea.
+          </p>
+        </article>
+        <article class="pb-3 col-md-6 col-lg-3">
+          <div class="img-container position-relative bottom-section-images"
+            style="background: black url(assets/Images/editorsPick-5.jpg) center / cover;">
+            <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase article-title-light">U.S.</h3>
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <h2 class="article-title my-3 helvetica"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+              tincidunt eu, suas dignissim ei</a></h2>
+          <p class="article-para mb-0 text-muted">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at.
+            Harum fabulas electram id sit, cu recusabo incorrupte eos. Eos essent intellegam ei, et ponderum apeirian
+            sea.
+          </p>
+        </article>
+        <article class="pb-3 col-md-6 col-lg-3">
+          <div class="img-container position-relative bottom-section-images"
+            style="background: black url(assets/Images/editorsPick-6.jpg) center / cover;">
+            <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase article-title-light">U.S.</h3>
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <h2 class="article-title my-3 helvetica"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+              tincidunt eu, suas dignissim ei</a></h2>
+          <p class="article-para mb-0 text-muted">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at.
+            Harum fabulas electram id sit, cu recusabo incorrupte eos. Eos essent intellegam ei, et ponderum apeirian
+            sea.
+          </p>
+        </article>
+        <article class="pb-3 col-md-6 col-lg-3">
+          <div class="img-container position-relative bottom-section-images"
+            style="background: black url(assets/Images/editorsPick-7.jpg) center / cover;">
+            <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase article-title-light">Tech & News</h3>
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <h2 class="article-title my-3 helvetica"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+              tincidunt eu, suas dignissim ei</a></h2>
+          <p class="article-para mb-0 text-muted">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at.
+            Harum fabulas electram id sit, cu recusabo incorrupte eos. Eos essent intellegam ei, et ponderum apeirian
+            sea.
+          </p>
+        </article>
+        <article class="pb-4 col-md-6 col-lg-3">
+          <div class="img-container position-relative bottom-section-images"
+            style="background: black url(assets/Images/editorsPick-8.jpg) center / cover;">
+            <h3 class="img-titles-lg position-absolute px-3 py-2 text-uppercase article-title-light">Tech & News</h3>
+            <a href="#" class="stretched-link"></a>
+          </div>
+          <h2 class="article-title my-3 helvetica"><a class="text-body" href="#">Lorem ipsum dolor sit amet, per stet
+              tincidunt eu, suas dignissim ei</a></h2>
+          <p class="article-para mb-0 text-muted">Lorem ipsum dolor sit amet, eam in quod elit, usu stet postulant at.
+            Harum fabulas electram id sit, cu recusabo incorrupte eos. Eos essent intellegam ei, et ponderum apeirian
+            sea.
+          </p>
+        </article>
+
+      </div>
+    </section>
+    <!--=============== Stories by Category ===============-->
+    <div
+      class="stories-category page-sections d-flex flex-wrap pr-3 pl-3 mb-3 mb-md-0 flex-grow-1 flex-shrink-1 justify-content-center">
+      <!-- US section -->
+      <section class="stories-category-section border-top w-100">
+        <h1 class="helvetica stories-category-h1"><a href="#" class="text-reset ">U.S.</a></h1>
+        <div class="row">
+          <article class="pb-2 mt-0 w-100 col-md-4">
+            <div class="img-container position-relative bottom-section-images"
+              style="background: black url(assets/Images/US-section-1.jpg) center / cover;">
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title stories-category-h2 my-3 helvetica"><a href="#">Lorem ipsum dolor sit amet, per
+                stet
+                tincidunt eu, suas dignissim ei</a></h2>
+          </article>
+          <article class="pb-2 mt-0 w-100 mb-2 col-md-4">
+            <div class="img-container position-relative bottom-section-images"
+              style="background: black url(assets/Images/US-section-2.jpg) center / cover;">
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title stories-category-h2 my-3 helvetica"><a href="#">Lorem ipsum dolor sit amet, per
+                stet
+                tincidunt eu, suas dignissim ei</a></h2>
+          </article>
+          <div class="col-md-4">
+            <article class="pb-4 mt-0 w-100 d-flex align-items-start">
+              <div class="stories-categories-smallIMG img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/US-section-3.png) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+            <article class="border-top pb-4 pt-3 mt-0 w-100 d-flex align-items-start">
+              <div
+                class="stories-categories-smallIMG equal-ratio img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/US-section-4.jpg) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+            <article class="border-top pb-4 pt-3 mt-0 w-100 d-flex align-items-start">
+              <div
+                class="stories-categories-smallIMG equal-ratio img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/US-section-5.jpg) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+
+          </div>
+
+        </div>
+      </section>
+      <!-- World section -->
+      <section class="stories-category-section border-top w-100">
+        <h1 class="helvetica stories-category-h1"><a href="#" class="text-reset ">World</a></h1>
+        <div class="row">
+          <article class="pb-2 mt-0 w-100 col-md-4">
+            <div class="img-container position-relative bottom-section-images"
+              style="background: black url(assets/Images/world-section-1.jpg) center / cover;">
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title stories-category-h2 my-3 helvetica"><a href="#">Lorem ipsum dolor sit amet, per
+                stet
+                tincidunt eu, suas dignissim ei</a></h2>
+          </article>
+          <article class="pb-2 mt-0 w-100 mb-2 col-md-4">
+            <div class="img-container position-relative bottom-section-images"
+              style="background: black url(assets/Images/world-section-2.jpg) center / cover;">
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title stories-category-h2 my-3 helvetica"><a href="#">Lorem ipsum dolor sit amet, per
+                stet
+                tincidunt eu, suas dignissim ei</a></h2>
+          </article>
+          <div class="col-md-4">
+            <article class="pb-4 mt-0 w-100 d-flex align-items-start">
+              <div class="stories-categories-smallIMG img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/world-section-3.jpg) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+            <article class="border-top pb-4 pt-3 mt-0 w-100 d-flex align-items-start">
+              <div
+                class="stories-categories-smallIMG equal-ratio img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/world-section-4.jpg) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+            <article class="border-top pb-4 pt-3 mt-0 w-100 d-flex align-items-start">
+              <div
+                class="stories-categories-smallIMG equal-ratio img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/world-section-5.jpg) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+
+          </div>
+
+        </div>
+      </section>
+      <!-- Business section -->
+      <section class="stories-category-section border-top w-100">
+        <h1 class="helvetica stories-category-h1"><a href="#" class="text-reset ">Business</a></h1>
+        <div class="row">
+          <article class="pb-2 mt-0 w-100 col-md-4">
+            <div class="img-container position-relative bottom-section-images"
+              style="background: black url(assets/Images/business-section-1.jpg) center / cover;">
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title stories-category-h2 my-3 helvetica"><a href="#">Lorem ipsum dolor sit amet, per
+                stet
+                tincidunt eu, suas dignissim ei</a></h2>
+          </article>
+          <article class="pb-2 mt-0 w-100 mb-2 col-md-4">
+            <div class="img-container position-relative bottom-section-images"
+              style="background: black url(assets/Images/business-section-2.jpg) center / cover;">
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title stories-category-h2 my-3 helvetica"><a href="#">Lorem ipsum dolor sit amet, per
+                stet
+                tincidunt eu, suas dignissim ei</a></h2>
+          </article>
+          <div class="col-md-4">
+            <article class="pb-4 mt-0 w-100 d-flex align-items-start">
+              <div class="stories-categories-smallIMG img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/business-section-3.jpg) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+            <article class="border-top pb-4 pt-3 mt-0 w-100 d-flex align-items-start">
+              <div
+                class="stories-categories-smallIMG equal-ratio img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/business-section-4.jpg) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+            <article class="border-top pb-4 pt-3 mt-0 w-100 d-flex align-items-start">
+              <div
+                class="stories-categories-smallIMG equal-ratio img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/business-section-5.jpg) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- Tech & Science section -->
+      <section class="stories-category-section border-top w-100">
+        <h1 class="helvetica stories-category-h1"><a href="#" class="text-reset ">Tech & Science</a></h1>
+        <div class="row">
+          <article class="pb-2 mt-0 w-100 col-md-4">
+            <div class="img-container position-relative bottom-section-images"
+              style="background: black url(assets/Images/techScience-section-1.jpg) center / cover;">
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title stories-category-h2 my-3 helvetica"><a href="#">Lorem ipsum dolor sit amet, per
+                stet
+                tincidunt eu, suas dignissim ei</a></h2>
+          </article>
+          <article class="pb-2 mt-0 w-100 mb-2 col-md-4">
+            <div class="img-container position-relative bottom-section-images"
+              style="background: black url(assets/Images/techScience-section-2.jpg) center / cover;">
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title stories-category-h2 my-3 helvetica"><a href="#">Lorem ipsum dolor sit amet, per
+                stet
+                tincidunt eu, suas dignissim ei</a></h2>
+          </article>
+          <div class="col-md-4">
+            <article class="pb-4 mt-0 w-100 d-flex align-items-start">
+              <div class="stories-categories-smallIMG img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/techScience-section-3.png) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+            <article class="border-top pb-4 pt-3 mt-0 w-100 d-flex align-items-start">
+              <div
+                class="stories-categories-smallIMG equal-ratio img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/techScience-section-4.jpg) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+            <article class="border-top pb-4 pt-3 mt-0 w-100 d-flex align-items-start">
+              <div
+                class="stories-categories-smallIMG equal-ratio img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/techScience-section-5.jpg) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+          </div>
+
+        </div>
+      </section>
+      <!-- Culture section -->
+      <section class="stories-category-section border-top w-100">
+        <h1 class="helvetica stories-category-h1"><a href="#" class="text-reset ">Culture</a></h1>
+        <div class="row">
+          <article class="pb-2 mt-0 w-100 col-md-4">
+            <div class="img-container position-relative bottom-section-images"
+              style="background: black url(assets/Images/culture-section-1.jpg) center / cover;">
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title stories-category-h2 my-3 helvetica"><a href="#">Lorem ipsum dolor sit amet, per
+                stet
+                tincidunt eu, suas dignissim ei</a></h2>
+          </article>
+          <article class="pb-2 mt-0 w-100 mb-2 col-md-4">
+            <div class="img-container position-relative bottom-section-images"
+              style="background: black url(assets/Images/culture-section-2.jpg) center / cover;">
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title stories-category-h2 my-3 helvetica"><a href="#">Lorem ipsum dolor sit amet, per
+                stet
+                tincidunt eu, suas dignissim ei</a></h2>
+          </article>
+          <div class="col-md-4">
+            <article class="pb-4 mt-0 w-100 d-flex align-items-start">
+              <div class="stories-categories-smallIMG img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/culture-section-3.jpg) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+            <article class="border-top pb-4 pt-3 mt-0 w-100 d-flex align-items-start">
+              <div
+                class="stories-categories-smallIMG equal-ratio img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/culture-section-4.jpg) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+            <article class="border-top pb-4 pt-3 mt-0 w-100 d-flex align-items-start">
+              <div
+                class="stories-categories-smallIMG equal-ratio img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/culture-section-5.jpg) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+          </div>
+
+        </div>
+      </section>
+      <!-- Sports section -->
+      <section class="stories-category-section border-top w-100">
+        <h1 class="helvetica stories-category-h1"><a href="#" class="text-reset ">Sports</a></h1>
+        <div class="row">
+          <article class="pb-2 mt-0 w-100 col-md-4">
+            <div class="img-container position-relative bottom-section-images"
+              style="background: black url(assets/Images/sports-section-1.jpg) center / cover;">
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title stories-category-h2 my-3 helvetica"><a href="#">Lorem ipsum dolor sit amet, per
+                stet
+                tincidunt eu, suas dignissim ei</a></h2>
+          </article>
+          <article class="pb-2 mt-0 w-100 mb-2 col-md-4">
+            <div class="img-container position-relative bottom-section-images"
+              style="background: black url(assets/Images/sports-section-2.jpg) center / cover;">
+              <a href="#" class="stretched-link"></a>
+            </div>
+            <h2 class="article-title stories-category-h2 my-3 helvetica"><a href="#">Lorem ipsum dolor sit amet, per
+                stet
+                tincidunt eu, suas dignissim ei</a></h2>
+          </article>
+          <div class="col-md-4">
+            <article class="pb-4 mt-0 w-100 d-flex align-items-start">
+              <div class="stories-categories-smallIMG img-container position-relative flex-grow-0 flex-shrink-0"
+                style="background: black url(assets/Images/sports-section-3.jpg) center / cover;">
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <h2 class="article-title stories-category-h2-small my-0 ml-3 helvetica"><a href="#">Lorem ipsum dolor sit
+                  amet,
+                  per stet tincidunt eu, suas dignissim ei</a></h2>
+            </article>
+          </div>
+
+        </div>
+      </section>
+    </div>
+    <!--=============== Subscribe & Newsletter ===============-->
+    <div class="container-fluid">
+      <div class="row">
+        <section
+          class="subscribe page-sections featured-stories d-flex flex-wrap pt-3 pr-3 pl-3 mb-3 mb-md-0 flex-grow-1 flex-shrink-1 col-lg-7">
+          <h1 class="section-titles subscribe-title helvetica">Subscribe</h1>
+          <div class="subscribe-form-div signUp-container p-4 d-flex flex-column flex-md-row align-items-center mb-4">
+            <div class="mag-cover-div position-relative mb-2 mb-md-3">
+              <img class="d-block subscribe-img-1 position-relative" src="assets/Images/subscribe-1.jpg" alt="N-logo">
+              <img class="d-block position-absolute subscribe-img-2" src="assets/Images/subscribe-2.jpg" alt="N-logo">
+            </div>
+            <div
+              class="text-center text-md-left d-flex flex-column justify-content-center align-items-md-start  p-0 m-0">
+              <h2 class="signUp-heading mb-0">In-depth Stories You Don't See Elsewhere About Topics You Want to
+                Read!</h2>
+              <p class="text-center text-md-left helvetica my-3 subscribe-para text-muted lighter">All Access + Weekly
+                Delivery.
+                <br>
+                Choose A Membership That's Perfect for You!</p>
+              <button class="signUp-btn m-md-0 subscribe-btn btn mt-2 m-auto text-uppercase d-flex align-items-center"
+                type="button">Subscribe ›</button>
+            </div>
+          </div>
+        </section>
+        <section
+          class="newsletter page-sections featured-stories d-flex flex-wrap pt-3 pr-3 pl-3 mb-3 mb-md-0 flex-grow-1 flex-shrink-1 col-lg-5">
+          <h1 class="section-titles subscribe-title helvetica">Newsletter</h1>
+          <div
+            class="subscribe-form-div bg-transparent signUp-container d-flex flex-md-row flex-column align-items-center mb-4 border">
+            <div class="mag-cover-div newslet-img-container w-100 mr-md-0">
+              <img class="newslet-img w-100" src="assets/Images/newsletter.png" alt="N-logo">
+            </div>
+            <div class="py-3 py-md-4 px-3 my-3 my-md-0 mx-1 mx-md-0 w-100 text-center text-lg-left">
+              <h2 class="signUp-heading newslet-heading ml-3 mb-3 pr-2">THE STARTING 5</h2>
+              <p class="newslet-para text-center text-lg-left px-3 mb-3 helvetica subscribe-para text-muted lighter">See
+                why nearly a
+                quarter of a million subscribers begin their day with the Starting 5.</p>
+              <form class="newsletter-form d-flex flex-lg-wrap w-100 px-lg-3">
+                <input class="newsletter-input pl-2 flex-grow-1 w-100 mb-lg-2" type="email"
+                  placeholder="Email address"><button
+                  class="rounded-right newslet-btn border-0 subscribe-btn text-uppercase d-flex flex-grow-1 justify-content-center align-items-center w-100"
+                  type="button">FREE SIGN UP <i class="fas fa-chevron-right"></i></button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <!--=================== Footer ===================-->
+  <footer class="footer page-sections py-4 pr-3 pl-2 border-top">
+    <h1 class="hidden">Footer</h1>
+    <div class="brand pb-2 pl-2 d-md-flex align-items-end position-relative">
+      <div class="logo mb-2"><a href="#"><svg class="footer-logo" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
+            style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+            <g>
+              <path class="st0"
+                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+              </path>
+            </g>
+          </svg></a>
+      </div>
+      <p class="text-muted footer-para mb-1 ml-md-3">© 2020 NEWSWEEK DIGITAL LLC</p>
+      <div class="social-media-links">
+        <a href="#"><i class="fab fa-facebook-square mr-3 text-muted"></i></a><a href="#"><i
+            class="fab fa-twitter mr-3 text-muted"></i></a><a href="#"></a><a href="#"><i
+            class="fab fa-instagram mr-3 text-muted"></i></a><a href="#"><i
+            class="fab fa-tumblr mr-3 text-muted"></i></a><a href="#"><i
+            class="fab fa-linkedin-in mr-3 text-muted"></i></a>
+      </div>
+    </div>
+    <div class="site-map text-muted border-top pt-2">
+      <div class="d-flex pl-2">
+        <p class="mr-3 mb-2"><strong>Editions:</strong></p>
+        <ul class="list-unstyled d-flex mb-0">
+          <li class="pr-2 site-map-li-pipe"><a href="#">U.S. Edition</a></li>
+          <li class="pr-2 pl-2 site-map-li-pipe"><a href="#">日本</a></li>
+          <li class="pr-2 pl-2 site-map-li-pipe"><a href="#">Pakistan</a></li>
+          <li class="pr-2 pl-2 site-map-li-pipe"><a href="#">Polska</a></li>
+          <li class="pr-2 pl-2"><a href="#">România</a></li>
+        </ul>
+      </div>
+      <ul class="list-unstyled d-flex flex-wrap mb-0">
+        <li class="pr-2 pl-2 site-map-li-pipe mb-2"><a href="#" class="text-nowrap">About Us</a></li>
+        <li class="pr-2 pl-2 site-map-li-pipe mb-2"><a href="#">Corrections</a></li>
+        <li class="pr-2 pl-2 site-map-li-pipe mb-2"><a href="#" class="text-nowrap">Contact Us</a></li>
+        <li class="pr-2 pl-2 site-map-li-pipe mb-2"><a href="#" class="text-nowrap">Editorial Guidelines</a></li>
+        <li class="pr-2 pl-2 site-map-li-pipe mb-2"><a href="#">Advertise</a></li>
+        <li class="pr-2 pl-2 site-map-li-pipe mb-2"><a href="#">Copyright</a></li>
+        <li class="pr-2 pl-2 site-map-li-pipe mb-2"><a href="#" class="text-nowrap">Terms & Conditions</a></li>
+        <li class="pr-2 pl-2 site-map-li-pipe mb-2"><a href="#" class="text-nowrap">Privacy Policy</a></li>
+        <li class="pr-2 pl-2 site-map-li-pipe mb-2"><a href="#" class="text-nowrap">Cookie Policy</a></li>
+        <li class="pr-2 pl-2 site-map-li-pipe mb-2"><a href="#" class="text-nowrap">Terms of Sale</a></li>
+        <li class="pr-2 pl-2 site-map-li-pipe mb-2"><a href="#">Archive</a></li>
+        <li class="pr-2 pl-2 site-map-li-pipe mb-2"><a href="#">Announcements</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/2bdc450678.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
