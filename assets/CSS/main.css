@@ -4,16 +4,6 @@
   =======================
 */
 
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-.no-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -656,16 +646,6 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  .no-scrollbar::-webkit-scrollbar {
-    display: initial;
-  }
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
-  .no-scrollbar {
-    -ms-overflow-style: initial;  /* IE and Edge */
-    scrollbar-width: initial;  /* Firefox */
-  }
-
   .article-title {
     font-size: 24px;
   }
